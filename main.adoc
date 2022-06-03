@@ -1,0 +1,35 @@
+= test: hoge
+aaa, 組織名
+v1.0 {docdate}
+:doctype: book
+:scripts: cjk
+:pdf-theme: ./themes/manuals-theme.yml
+//:pdf-theme: ./themes/manuals-IBMPlexSansJP-theme.yml
+//:pdf-theme: ./themes/specs-gothic-theme.yml
+//:pdf-theme: ./themes/specs-mincho-theme.yml
+:pdf-fontsdir: ./fonts;GEM_FONTS_DIR
+:imagesdir: ./images
+:icons: font
+:source-highlighter: rouge
+:sectnumlevels: 4
+:sectnums:
+:chapter-signifier:
+:preface-title: まえがき
+:appendix-caption: 付録
+:toc: left
+:toclevels: 4
+:toc-title: 目次
+:figure-caption: 図
+:table-caption: 表
+:listing-caption: リスト
+:example-caption: 例
+:note-caption: 注記
+:tip-caption: ヒント
+:coution-caption: 注意
+:warning-caption: 警告
+:important-caption: 重要
+:version-label: Ver.
+:last-update-label: 最終更新
+
+include::doc-section01.adoc[]
+include::doc-section02.adoc[]
